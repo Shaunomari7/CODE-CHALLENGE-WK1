@@ -138,10 +138,3 @@ function  calcNetPay() {
     return netPay;
 }
 
-alert(Below is your monthly calculated Tax and Deductions):
-======================================
-TOTAL TAXABLE INCOME: : ${calcTotalIncome()}
-PAYE : ${getPAYE()}
-PERSONAL RELIEF : ${calcRelief()}
-NSSF DEDUCT: ${calcNssfDeduction()}
-NET PAY: ${calcNetPay()}
